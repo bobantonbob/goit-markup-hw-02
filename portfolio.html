@@ -1,114 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-  
-    <link rel="stylesheet" href="./css/styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header section -->
     <header class="header">
-        <nav class="header-nav">
-          <ul class="header-list">
-            <li class="header-item">
-              <a href="/" class="header-logo">Web<span class="header-logo-studio">Studio</span></a>
-            </li>
-            <li class="header-item"><a class="header-link" href="">Studio</a></li>
-            <li class="header-item"><a class="header-link"  href="">Portfolio</a></li>
-            <li class="header-item"><a class="header-link"  href="">Contacts</a></li>
-          </ul>
-        </nav>
-        <address>
-          <ul class="auth-nav">
-            <li  class="nav-email"><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
-            <li  class="nav-tel"><a href="tel:+110001111111" class="contact-link">+11 (000) 111-11-11</a></li>
-          </ul>
-        </address>
-      </header>
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li class="header-item">
+            <a href="/" class="header-logo" class="link"
+              >web<span class="header-logo-studio">Studio</span></a
+            >
+          </li>
+          <li class="header-item"><a class="header-link" href="">Studio</a></li>
+          <li class="header-item">
+            <a class="header-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address>
+        <ul class="auth-nav">
+          <li class="nav-email">
+            <a href="mailto:info@devstudio.com" class="contact-link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="nav-tel">
+            <a href="tel:+110001111111" class="contact-link"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+    </header>
 
     <!-- Main -->
     <main>
       <!-- Nav portfolio section -->
       <nav class="portfolio-nav">
-        <ul class="portfolio-nav-list">
-            <li class="portfolio-nav-item"><button class="portfolio-nav-all-button" type="button">All</button></li>
-            <li class="portfolio-nav-item"><button class="portfolio-nav-button" type="button">Web Site</button></li>
-            <li class="portfolio-nav-item"><button class="portfolio-nav-button" type="button">App</button></li>
-            <li class="portfolio-nav-item"><button class="portfolio-nav-button" type="button">Design</button></li>
-            <li class="portfolio-nav-item"><button class="portfolio-nav-button" type="button">Marketing</button></li>
+        <ul class="list">
+          <li class="portfolio-nav-item">
+            <button class="portfolio-nav-all-button" type="button">All</button>
+          </li>
+          <li class="portfolio-nav-item">
+            <button class="portfolio-nav-all-button" type="button">
+              Web Site
+            </button>
+          </li>
+          <li class="portfolio-nav-item">
+            <button class="portfolio-nav-button" type="button">App</button>
+          </li>
+          <li class="portfolio-nav-item">
+            <button class="portfolio-nav-button" type="button">Design</button>
+          </li>
+          <li class="portfolio-nav-item">
+            <button class="portfolio-nav-button" type="button">
+              Marketing
+            </button>
+          </li>
         </ul>
       </nav>
 
       <!-- Portfolio section -->
       <section class="portfolio">
+        <h1 class="portfolio-title-h1">What are we doing</h1>
         <h2 class="portfolio-title">What are we doing</h2>
         <ul class="portfolio-list">
           <li class="portfolio-item">
-            <img src="./images/BankingApp.jpg" class="portfolio-img" alt="BankingApp" width="360">
+            <img
+              src="./images/BankingApp.jpg"
+              class="portfolio-img"
+              alt="BankingApp"
+              width="360"
+            />
             <p class="portfolio-text1">Banking App Interface Concept</p>
             <p class="portfolio-text2">App</p>
           </li>
           <li class="portfolio-item">
-            <img src="./images/CashlessPayment.jpg" class="portfolio-img" alt="CashlessPayment" width="360">
+            <img
+              src="./images/CashlessPayment.jpg"
+              class="portfolio-img"
+              alt="CashlessPayment"
+              width="360"
+            />
             <p class="portfolio-text1">Cashless Payment</p>
             <p class="portfolio-text2">Marketing</p>
           </li>
           <li class="portfolio-item">
-            <img src="./images/MeditationApp.jpg" class="portfolio-img" alt="MeditationApp" width="360">
+            <img
+              src="./images/MeditationApp.jpg"
+              class="portfolio-img"
+              alt="MeditationApp"
+              width="360"
+            />
             <p class="portfolio-text1">Meditation App</p>
             <p class="portfolio-text2">App</p>
           </li>
         </ul>
         <ul>
           <li class="portfolio-item">
-            <img src="./images/TaxiService.jpg" class="portfolio-img" alt="TaxiService" width="360">
+            <img
+              src="./images/TaxiService.jpg"
+              class="portfolio-img"
+              alt="TaxiService"
+              width="360"
+            />
             <p class="portfolio-text1">Taxi Service</p>
             <p class="portfolio-text2">Marketing</p>
           </li>
           <li class="portfolio-item">
-            <img src="./images/ScreenIllustrations.jpg" class="portfolio-img" alt="ScreenIllustrations" width="360">
+            <img
+              src="./images/ScreenIllustrations.jpg"
+              class="portfolio-img"
+              alt="ScreenIllustrations"
+              width="360"
+            />
             <p class="portfolio-text1">Screen Illustrations</p>
             <p class="portfolio-text2">Design</p>
           </li>
           <li class="portfolio-item">
-            <img src="./images/OnlineCourses.jpg" class="portfolio-img" alt="OnlineCourses" width="360">
+            <img
+              src="./images/OnlineCourses.jpg"
+              class="portfolio-img"
+              alt="OnlineCourses"
+              width="360"
+            />
             <p class="portfolio-text1">Online Courses</p>
             <p class="portfolio-text2">Marketing</p>
           </li>
         </ul>
         <ul>
-            <li class="portfolio-item">
-              <img src="./images/InstagramStoriesConcept.jpg" class="portfolio-img" alt="InstagramStoriesConcept" width="360">
-              <p class="portfolio-text1">Instagram Stories Concept</p>
-              <p class="portfolio-text2">Design</p>
-            </li>
-            <li class="portfolio-item">
-              <img src="./images/OrganicFood.jpg" class="portfolio-img" alt="OrganicFood" width="360">
-              <p class="portfolio-text1">Organic Food</p>
-              <p class="portfolio-text2">Web Site</p>
-            </li>
-            <li class="portfolio-item">
-              <img src="./images/FreshCoffee.jpg" class="portfolio-img" alt="FreshCoffee" width="360">
-              <p class="portfolio-text1">Fresh Coffee</p>
-              <p class="portfolio-text2">Web Site</p>
-            </li>
-          </ul>
+          <li class="portfolio-item">
+            <img
+              src="./images/InstagramStoriesConcept.jpg"
+              class="portfolio-img"
+              alt="InstagramStoriesConcept"
+              width="360"
+            />
+            <p class="portfolio-text1">Instagram Stories Concept</p>
+            <p class="portfolio-text2">Design</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/OrganicFood.jpg"
+              class="portfolio-img"
+              alt="OrganicFood"
+              width="360"
+            />
+            <p class="portfolio-text1">Organic Food</p>
+            <p class="portfolio-text2">Web Site</p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/FreshCoffee.jpg"
+              class="portfolio-img"
+              alt="FreshCoffee"
+              width="360"
+            />
+            <p class="portfolio-text1">Fresh Coffee</p>
+            <p class="portfolio-text2">Web Site</p>
+          </li>
+        </ul>
       </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-      <a href="/" class="footer-logo">Web<span class="footer-logo-studio">Studio</span></a>
+      <a href="/" class="footer-logo" class="link"
+        >Web<span class="footer-logo-studio">Studio</span></a
+      >
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
@@ -116,6 +201,3 @@
     </footer>
   </body>
 </html>
-
-
-
