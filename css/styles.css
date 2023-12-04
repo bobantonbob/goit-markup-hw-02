@@ -4,22 +4,22 @@
     --color-2E2F42: #2E2F42;
     --color-434455: #434455;
 
-    --position: relative;
-    --width: 100%;
-    --height: 80px;
-    --left: 0;
-    --top: 0;
-    --box: border-box;
-    --display: flex;
-    --align-items: center;
-    --padding: 10px;
-    --flex-direction: row;
-    --gap-value: 10px;
-    --border-radius: 5px;
-    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    --order: 1;
-    --flex-grow: 1;
-    --border-bottom: 1px solid #ccc;
+    --position: ;
+    --width: ;
+    --height: ;
+    --left: ;
+    --top: ;
+    --box: ;
+    --display: ;
+    --align-items: ;
+    --padding: ;
+    --flex-direction: ;
+    --gap-value: ;
+    --border-radius: ;
+    --box-shadow: ;
+    --order: ;
+    --flex-grow: ;
+    --border-bottom: ;
 }
 
 body {
