@@ -1,3 +1,22 @@
+:root {
+    --position-value: relative;
+    --width-value: 100%;
+    --height-value: 80px;
+    --left-value: 0;
+    --top-value: 0;
+    --box-sizing-value: border-box;
+    --display-value: flex;
+    --align-items-value: center;
+    --padding-value: 10px;
+    --flex-direction-value: row;
+    --gap-value: 10px;
+    --border-radius-value: 5px;
+    --box-shadow-value: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --order-value: 1;
+    --flex-grow-value: 1;
+    --border-bottom-value: 1px solid #ccc;
+}
+
 body {
     background-color: #FFF;
     color: #434455;
@@ -19,7 +38,9 @@ ul {
     list-style: none;
 }
 
-.link {}
+.link {
+    text-decoration: none;
+}
 
 .list {
     list-style: none;
@@ -41,7 +62,7 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     /* width: 44px;  */
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 .header-logo-studio {
@@ -53,7 +74,9 @@ ul {
     color: #2E2F42;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    /* letter-spacing: 0.32px; */
+    letter-spacing: 0.02em;
+
 }
 
 .header-link:hover,
@@ -61,6 +84,11 @@ ul {
     color: #404BBF;
     text-decoration: underline;
 }
+
+.address {
+    font-style: normal;
+}
+
 
 .auth-nav {
     font-style: normal;
@@ -72,15 +100,22 @@ ul {
 .contact-link {
     color: #434455;
     transition: color 0.3s;
-
-    &:hover {
+    /* &:hover {
         color: #404bbf;
     }
-
     &:focus {
         color: #404bbf;
-    }
+    } */
 }
+
+.contact-link:hover {
+    color: #404bbf;
+}
+
+.contact-link:focus {
+    color: #404bbf;
+}
+
 
 /* -------------------------- 
     Main section 
@@ -115,16 +150,22 @@ ul {
     background: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
-
-    &:hover {
+    /* &:hover {
         background-color: #404BBF;
     }
 
     &:focus {
         background-color: #404BBF;
-    }
+    } */
 }
 
+.hero-button:hover {
+    background-color: #404BBF;
+}
+
+.hero-button:focus {
+    background-color: #404BBF;
+}
 
 /* Direction section */
 .direct {}
@@ -212,8 +253,9 @@ ul {
 .team-p {
     /* text-align: center; */
     font-weight: 400;
-    */ line-height: 1.5;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    /* letter-spacing: 0.32px; */
+    letter-spacing: 0.02em;
 }
 
 
