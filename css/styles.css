@@ -4,7 +4,7 @@
     --color-2E2F42: #2E2F42;
     --color-434455: #434455;
 
-    --position: ;
+    /* --position: ;
     --width: ;
     --height: ;
     --left: ;
@@ -19,7 +19,7 @@
     --box-shadow: ;
     --order: ;
     --flex-grow: ;
-    --border-bottom: ;
+    --border-bottom: ; */
 }
 
 body {
@@ -299,7 +299,7 @@ ul {
     background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
 }
 
-.portfolio-text1 {
+.portfolio-text-h {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -308,7 +308,7 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.portfolio-text2 {
+.portfolio-text-p {
     /* font-weight: 400; */
     color: #434455;
     font-size: 16px;
