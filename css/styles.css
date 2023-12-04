@@ -1,4 +1,6 @@
 :root {
+    --primary-text-color: #2e2f42;
+
     --position-value: relative;
     --width-value: 100%;
     --height-value: 80px;
@@ -72,8 +74,8 @@ ul {
     /* width: 71px; */
 }
 
-.header-item {
-    color: #2E2F42;
+.header-link {
+    color: var(--primary-text-color);
     font-weight: 500;
     line-height: 1.5;
     /* letter-spacing: 0.32px; */
