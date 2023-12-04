@@ -1,22 +1,22 @@
 :root {
     --primary-text-color: #2e2f42;
 
-    --position-value: relative;
-    --width-value: 100%;
-    --height-value: 80px;
-    --left-value: 0;
-    --top-value: 0;
-    --box-sizing-value: border-box;
-    --display-value: flex;
-    --align-items-value: center;
-    --padding-value: 10px;
-    --flex-direction-value: row;
+    --position: relative;
+    --width: 100%;
+    --height: 80px;
+    --left: 0;
+    --top: 0;
+    --box: border-box;
+    --display: flex;
+    --align-items: center;
+    --padding: 10px;
+    --flex-direction: row;
     --gap-value: 10px;
-    --border-radius-value: 5px;
-    --box-shadow-value: 0 2px 4px rgba(0, 0, 0, 0.1);
-    --order-value: 1;
-    --flex-grow-value: 1;
-    --border-bottom-value: 1px solid #ccc;
+    --border-radius: 5px;
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --order: 1;
+    --flex-grow: 1;
+    --border-bottom: 1px solid #ccc;
 }
 
 body {
@@ -83,7 +83,11 @@ ul {
 
 }
 
-.header-link:hover,
+.header-link:hover {
+    color: #404BBF;
+    text-decoration: underline;
+}
+
 .header-link:focus {
     color: #404BBF;
     text-decoration: underline;
@@ -110,7 +114,10 @@ ul {
     } */
 }
 
-.contact-link:hover,
+.contact-link:hover {
+    color: #404bbf;
+}
+
 .contact-link:focus {
     color: #404bbf;
 }
@@ -340,7 +347,11 @@ ul {
     cursor: pointer;
 }
 
-.portfolio-nav-all-button:hover,
+.portfolio-nav-all-button:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
 .portfolio-nav-all-button:focus {
     color: #FFFFFF;
     background-color: #404BBF;
