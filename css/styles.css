@@ -39,7 +39,7 @@ a {
 
 ul {
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     list-style: none;
 }
 
@@ -117,14 +117,21 @@ ul {
     } */
 }
 
-.contact-link:hover {
+.nav-email.contact-link:hover {
     color: #404bbf;
 }
 
-.contact-link:focus {
+.nav-email.contact-link:focus {
     color: #404bbf;
 }
 
+.nav-tel.contact-link:hover {
+    color: #404bbf;
+}
+
+.nav-tel .contact-link:focus {
+    color: #404bbf;
+}
 
 
 /* -------------------------- 
@@ -156,9 +163,9 @@ ul {
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px; */
-    border-radius: 4px;
+    /* border-radius: 4px; */
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
     cursor: pointer;
     /* &:hover {
         background-color: #404BBF;
@@ -181,7 +188,7 @@ ul {
 .direct {}
 
 .direct-title {
-    display: none;
+    /* display: none; */
 
 }
 
@@ -274,7 +281,7 @@ ul {
 .portfolio {}
 
 .portfolio-title-h1 {
-    display: none;
+    /* display: none; */
 }
 
 .portfolio-title {
@@ -285,7 +292,7 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    display: none;
+    /* display: none; */
 }
 
 .portfolio-list {}
@@ -331,7 +338,7 @@ ul {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     border: 1px solid #E7E9FC;
     background: #F4F4FD;
     cursor: pointer;
@@ -345,7 +352,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     /* background: #404BBF; */
     background-color: #F4F4FD;
     cursor: pointer;
