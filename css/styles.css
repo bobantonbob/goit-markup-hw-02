@@ -117,15 +117,15 @@ ul {
     } */
 }
 
-.nav-email.contact-link:hover {
+.nav-email .contact-link:hover {
     color: #404bbf;
 }
 
-.nav-email.contact-link:focus {
+.nav-email .contact-link:focus {
     color: #404bbf;
 }
 
-.nav-tel.contact-link:hover {
+.nav-tel .contact-link:hover {
     color: #404bbf;
 }
 
