@@ -66,15 +66,13 @@ ul {
 
 }
 
-.header-link:hover {
-    color: #404BBF;
-    text-decoration: none ;
-}
-
+.header-link:hover,
 .header-link:focus {
     color: #404BBF;
     text-decoration: none ;
 }
+
+
 
 .address {
     font-style: normal;
@@ -91,15 +89,12 @@ ul {
     letter-spacing: 0.32px;
 
 }
-.contact-link:hover {
-    color: #404BBF;
-    text-decoration: none ;
-}
-
+.contact-link:hover,
 .contact-link:focus {
     color: #404BBF;
     text-decoration: none ;
 }
+
 
 
 
