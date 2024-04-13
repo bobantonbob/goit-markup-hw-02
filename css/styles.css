@@ -89,8 +89,7 @@ ul {
     letter-spacing: 0.32px;
 
 }
-.contact-link:hover,
-.contact-link:focus {
+.contact-link:active {
     color: #404BBF;
     text-decoration: none ;
 }
