@@ -83,7 +83,7 @@ ul {
 
 .address {
     font-style: normal;
-}
+}   
 
 
 
@@ -96,7 +96,15 @@ ul {
     letter-spacing: 0.32px;
 
 }
+.contact-link:hover {
+    color: #404BBF;
+    text-decoration: none ;
+}
 
+.contact-link:focus {
+    color: #404BBF;
+    text-decoration: none ;
+}
 
 
 
