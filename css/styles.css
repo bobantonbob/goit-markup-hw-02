@@ -323,7 +323,7 @@ ul {
     background: var(--color-2E2F42);
 }
 
-/* .footer-logo {
+.footer-logo {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -332,7 +332,7 @@ ul {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
-} */
+}
 
 .footer-logo-studio {
     color: var(--cloud);
