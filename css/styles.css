@@ -97,12 +97,15 @@ ul {
 
 }
 
-.list .link:hover {
+.list .nav-email .contact-link:hover {
     color: #404BBF;
     text-decoration: none;
 }
-
-.list .link:focus {
+.list .nav-tel .contact-link:hover {
+    color: #404BBF;
+    text-decoration: none;
+}
+.list .contact-link:focus {
     color: #404BBF;
     text-decoration: none ;
     
