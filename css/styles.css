@@ -97,12 +97,15 @@ ul {
 
 }
 
-.link:hover {
+.list .contact-link:hover {
     color: #404BBF;
+    text-decoration: underline;
 }
 
-.link:focus {
+.list .contact-link:focus {
     color: #404BBF;
+    text-decoration: underline;
+    
 }
 
 
