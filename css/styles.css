@@ -97,11 +97,11 @@ ul {
 
 }
 
-.contact-link:hover {
+.link:hover {
     color: #404BBF;
 }
 
-.contact-link:focus {
+.link:focus {
     color: #404BBF;
 }
 
