@@ -73,12 +73,12 @@ ul {
 
 .header-link:hover {
     color: #404BBF;
-    text-decoration: underline;
+    text-decoration: none ;
 }
 
 .header-link:focus {
     color: #404BBF;
-    text-decoration: underline;
+    text-decoration: none ;
 }
 
 .address {
@@ -99,12 +99,12 @@ ul {
 
 .list .link:hover {
     color: #404BBF;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .list .link:focus {
     color: #404BBF;
-    text-decoration: underline;
+    text-decoration: none ;
     
 }
 
